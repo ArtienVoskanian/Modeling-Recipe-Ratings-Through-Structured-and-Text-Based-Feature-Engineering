@@ -1,4 +1,11 @@
-title: Creative Project Title
+title: My Project Website
 description: My course project site
-theme: jekyll-theme-just-the-docs
-show_downloads: false
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: light
+search_enabled: true
+heading_anchors: true
