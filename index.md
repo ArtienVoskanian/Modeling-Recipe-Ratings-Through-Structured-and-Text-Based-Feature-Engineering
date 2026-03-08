@@ -1,5 +1,5 @@
 ---
-layout: default
+nav_order: 1
 title: Project Title
 description: My course project site
 ---
