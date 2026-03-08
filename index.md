@@ -1,9 +1,9 @@
 ---
 layout: default
-title: [Creative Project Title]
+title: [Project Title]
 ---
 
-# [Creative Project Title]
+# [Project Title]
 
 ### By [Reza Moghadam], [Dimas Molina], [Artien Voskanian], [Ann Nguyen]
 
