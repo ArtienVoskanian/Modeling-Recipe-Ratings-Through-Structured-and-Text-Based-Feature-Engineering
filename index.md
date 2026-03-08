@@ -1,12 +1,21 @@
 ---
+layout: default
 nav_order: 1
 title: Project Title
 description: My course project site
+nav_enabled: true
 ---
 
 By Reza Moghadam, Dimas Molina, Artien Voskanian, and Ann Nguyen
 
 [Write a short 2–3 sentence overview of the project and what it investigates.]
+
+## On this page
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 
 <div style="height: 20px;"></div>
 
