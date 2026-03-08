@@ -8,6 +8,8 @@ By Reza Moghadam, Dimas Molina, Artien Voskanian, and Ann Nguyen
 
 [Write a short 2–3 sentence overview of the project and what it investigates.]
 
+<div style="height: 20px;"></div>
+
 ## Introduction
 
 Dataset overview:  
@@ -29,6 +31,8 @@ Relevant columns used in this project:
 - `[column name]` — [short description]
 - `[column name]` — [short description]
 - `[column name]` — [short description]
+
+<div style="height: 20px;"></div>
 
 ## Data Cleaning and Exploratory Data Analysis
 
@@ -74,6 +78,8 @@ Table placeholder:
 Explanation:  
 [FILL IN short explanation describing what the aggregate results show.]
 
+<div style="height: 20px;"></div>
+
 ## Assessment of Missingness
 
 ### NMAR Analysis
@@ -114,6 +120,8 @@ Independent relationship:
 Interpretation:  
 [FILL IN explanation of what the results suggest about missingness.]
 
+<div style="height: 20px;"></div>
+
 ## Hypothesis Testing
 
 Question being tested:  
@@ -143,6 +151,8 @@ Justification:
 Plot placeholder:  
 [INSERT HYPOTHESIS TEST VISUALIZATION IF INCLUDED]
 
+<div style="height: 20px;"></div>
+
 ## Framing a Prediction Problem
 
 Prediction task:  
@@ -170,6 +180,8 @@ Evaluation metrics:
 Why these metrics were chosen:  
 [FILL IN explanation.]
 
+<div style="height: 20px;"></div>
+
 ## Baseline Model
 
 Baseline model type:  
@@ -196,6 +208,8 @@ Baseline model performance:
 
 Evaluation:  
 [FILL IN short explanation of whether the baseline model performed well and why.]
+
+<div style="height: 20px;"></div>
 
 ## Final Model
 
@@ -228,6 +242,8 @@ Improvement over baseline:
 
 Plot placeholder:  
 [INSERT MODEL PERFORMANCE VISUALIZATION IF APPLICABLE]
+
+<div style="height: 20px;"></div>
 
 ## Fairness Analysis
 
@@ -270,6 +286,8 @@ Optional fairness comparison table:
 | [Comparison 1] | [value] | [value] | [value] |
 | [Comparison 2] | [value] | [value] | [value] |
 | [Comparison 3] | [value] | [value] | [value] |
+
+<div style="height: 20px;"></div>
 
 ## Final Takeaway
 
