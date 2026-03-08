@@ -1,17 +1,14 @@
 ---
 layout: default
-title: [Project Title]
+title: Project Title
+description: My course project site
 ---
 
-# [Project Title]
-
-### By [Reza Moghadam], [Dimas Molina], [Artien Voskanian], [Ann Nguyen]
+By Reza Moghadam, Dimas Molina, Artien Voskanian, and Ann Nguyen
 
 [Write a short 2–3 sentence overview of the project and what it investigates.]
 
----
-
-# Introduction
+## Introduction
 
 Dataset overview:  
 [FILL IN short description of the dataset and what type of data it contains.]
@@ -27,109 +24,82 @@ Dataset size:
 - Number of columns: [FILL IN]
 
 Relevant columns used in this project:
-
 - `[column name]` — [short description]
 - `[column name]` — [short description]
 - `[column name]` — [short description]
 - `[column name]` — [short description]
 - `[column name]` — [short description]
 
----
+## Data Cleaning and Exploratory Data Analysis
 
-# Data Cleaning and Exploratory Data Analysis
-
-## Data Cleaning
+### Data Cleaning
 
 [FILL IN description of the data cleaning steps.]
 
-Possible things to mention:
-- How missing values were handled
-- Any rows that were removed
-- Any new columns that were created
-- Any transformations applied to existing columns
-- Why these cleaning steps were necessary
+Things to mention:
+- how missing values were handled
+- any rows that were removed
+- any new columns that were created
+- any transformations applied to existing columns
+- why these cleaning steps were necessary
 
-Head of cleaned dataframe:
-
+Head of cleaned dataframe:  
 [INSERT TABLE OR SCREENSHOT OF CLEANED DATAFRAME HEAD]
 
----
-
-## Univariate Analysis
+### Univariate Analysis
 
 [FILL IN short introduction explaining what variable distribution is being examined.]
 
-PLOT PLACEHOLDER — UNIVARIATE DISTRIBUTION
+Plot placeholder:  
+[INSERT PLOTLY PLOT SHOWING DISTRIBUTION OF ONE COLUMN]
 
-[Insert at least one plotly plot showing the distribution of a single column.]
-
-Interpretation:
-
+Interpretation:  
 [FILL IN 1–2 sentences describing what the distribution shows.]
 
----
-
-## Bivariate Analysis
+### Bivariate Analysis
 
 [FILL IN short explanation of what two variables are being compared.]
 
-PLOT PLACEHOLDER — BIVARIATE RELATIONSHIP
+Plot placeholder:  
+[INSERT PLOTLY PLOT SHOWING RELATIONSHIP BETWEEN TWO COLUMNS]
 
-[Insert at least one plotly plot showing the relationship between two columns.]
-
-Interpretation:
-
+Interpretation:  
 [FILL IN 1–2 sentences explaining the trend or relationship in the plot.]
 
----
+### Interesting Aggregates
 
-## Interesting Aggregates
+Table placeholder:  
+[INSERT GROUPED SUMMARY TABLE OR PIVOT TABLE]
 
-TABLE PLACEHOLDER — GROUPED OR PIVOT TABLE
-
-[Insert grouped summary table or pivot table.]
-
-Explanation:
-
+Explanation:  
 [FILL IN short explanation describing what the aggregate results show.]
 
----
+## Assessment of Missingness
 
-# Assessment of Missingness
+### NMAR Analysis
 
-## NMAR Analysis
-
-Column that may be NMAR:
-
+Column that may be NMAR:  
 `[column name]`
 
-Reasoning:
-
+Reasoning:  
 [FILL IN explanation of why the missingness might be NMAR based on the data generating process.]
 
-Additional data that could help explain the missingness:
-
+Additional data that could help explain the missingness:  
 [FILL IN what extra data would help determine whether the missingness could instead be MAR.]
 
----
+### Missingness Dependency
 
-## Missingness Dependency
-
-Column with missing values being analyzed:
-
+Column with missing values being analyzed:  
 `[column name]`
 
-Column where missingness appears dependent:
-
+Column where missingness appears dependent:  
 `[column name]`
 
-Column where missingness appears not dependent:
-
+Column where missingness appears not dependent:  
 `[column name]`
 
-PLOT PLACEHOLDER — MISSINGNESS VISUALIZATION
-
-[Insert plot related to missingness exploration.]
+Plot placeholder:  
+[INSERT PLOT RELATED TO MISSINGNESS EXPLORATION]
 
 Permutation test results:
 
@@ -141,164 +111,125 @@ Independent relationship:
 - Test statistic: [FILL IN]
 - p-value: [FILL IN]
 
-Interpretation:
-
+Interpretation:  
 [FILL IN explanation of what the results suggest about missingness.]
 
----
+## Hypothesis Testing
 
-# Hypothesis Testing
-
-Question being tested:
-
+Question being tested:  
 [FILL IN the question your hypothesis test addresses.]
 
-Null hypothesis:
-
+Null hypothesis:  
 [FILL IN null hypothesis.]
 
-Alternative hypothesis:
-
+Alternative hypothesis:  
 [FILL IN alternative hypothesis.]
 
-Test statistic:
-
+Test statistic:  
 [FILL IN test statistic.]
 
-Significance level:
-
+Significance level:  
 [FILL IN alpha value.]
 
-P-value:
-
+P-value:  
 [FILL IN]
 
-Conclusion:
-
+Conclusion:  
 [FILL IN conclusion while avoiding absolute claims.]
 
-Justification:
-
+Justification:  
 [FILL IN why this hypothesis test and statistic were appropriate.]
 
-PLOT PLACEHOLDER — HYPOTHESIS TEST VISUALIZATION
+Plot placeholder:  
+[INSERT HYPOTHESIS TEST VISUALIZATION IF INCLUDED]
 
-[Insert visualization related to hypothesis testing if included.]
+## Framing a Prediction Problem
 
----
-
-# Framing a Prediction Problem
-
-Prediction task:
-
+Prediction task:  
 [FILL IN what the model is trying to predict.]
 
-Prediction type:
+Prediction type:  
+[Regression or Classification]
 
-Regression or Classification
-
-Response variable:
-
+Response variable:  
 `[column name]`
 
-Why this variable was chosen:
-
+Why this variable was chosen:  
 [FILL IN explanation.]
 
 Information available at time of prediction:
-
 - `[feature]`
 - `[feature]`
 - `[feature]`
 - `[feature]`
 
 Evaluation metrics:
-
 - `[metric]`
 - `[metric if additional]`
 
-Why these metrics were chosen:
-
+Why these metrics were chosen:  
 [FILL IN explanation.]
 
----
+## Baseline Model
 
-# Baseline Model
-
-Baseline model type:
-
+Baseline model type:  
 [FILL IN model name.]
 
 Features used:
 
-Quantitative features:
+Quantitative features:  
 [FILL IN]
 
-Ordinal features:
+Ordinal features:  
 [FILL IN if applicable]
 
-Nominal features:
+Nominal features:  
 [FILL IN if applicable]
 
-Preprocessing steps:
-
+Preprocessing steps:  
 [FILL IN description of scaling, encoding, or imputing.]
 
 Baseline model performance:
-
 - `[metric]`: [value]
 - `[metric]`: [value]
 - `[metric]`: [value]
 
-Evaluation:
-
+Evaluation:  
 [FILL IN short explanation of whether the baseline model performed well and why.]
 
----
-
-# Final Model
+## Final Model
 
 New features added:
-
 - `[feature]`
 - `[feature]`
 - `[feature]`
 
-Why these features should improve the model:
-
+Why these features should improve the model:  
 [FILL IN explanation based on the data generating process.]
 
-Modeling algorithm used:
-
+Modeling algorithm used:  
 [FILL IN algorithm.]
 
 Selected hyperparameters:
-
 - `[parameter]`: [value]
 - `[parameter]`: [value]
 - `[parameter]`: [value]
 
-Hyperparameter tuning method:
-
+Hyperparameter tuning method:  
 [FILL IN explanation of grid search or tuning method.]
 
 Final model performance:
-
 - `[metric]`: [value]
 - `[metric]`: [value]
 - `[metric]`: [value]
 
-Improvement over baseline:
-
+Improvement over baseline:  
 [FILL IN explanation.]
 
-PLOT PLACEHOLDER — MODEL PERFORMANCE VISUALIZATION
+Plot placeholder:  
+[INSERT MODEL PERFORMANCE VISUALIZATION IF APPLICABLE]
 
-[Insert model performance visualization if applicable.]
-
----
-
-# Fairness Analysis
+## Fairness Analysis
 
 Groups compared:
 
@@ -308,48 +239,38 @@ Group X:
 Group Y:  
 [FILL IN]
 
-Evaluation metric used:
-
+Evaluation metric used:  
 [FILL IN]
 
-Null hypothesis:
-
+Null hypothesis:  
 [FILL IN]
 
-Alternative hypothesis:
-
+Alternative hypothesis:  
 [FILL IN]
 
-Test statistic:
-
+Test statistic:  
 [FILL IN]
 
-Significance level:
-
+Significance level:  
 [FILL IN]
 
-P-value:
-
+P-value:  
 [FILL IN]
 
-Conclusion:
-
+Conclusion:  
 [FILL IN fairness conclusion.]
 
-PLOT PLACEHOLDER — PERMUTATION TEST DISTRIBUTION
-
-[Insert permutation test visualization.]
+Plot placeholder:  
+[INSERT PERMUTATION TEST VISUALIZATION]
 
 Optional fairness comparison table:
 
 | Group Comparison | Metric Group X | Metric Group Y | Ratio or Difference |
-|---|---|---|---|
+|---|---:|---:|---:|
 | [Comparison 1] | [value] | [value] | [value] |
 | [Comparison 2] | [value] | [value] | [value] |
 | [Comparison 3] | [value] | [value] | [value] |
 
----
-
-# Final Takeaway
+## Final Takeaway
 
 [FILL IN a short project summary describing the main insights from the analysis and modeling.]
