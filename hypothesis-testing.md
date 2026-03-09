@@ -7,24 +7,26 @@ nav_order: 5
 # Hypothesis Testing
 
 ## Question
-[FILL IN question.]
+Nutrition is often a consideration when people choose and evaluate recipes. To explore whether the amount of calories  has any effect on how users rate recipes, specifically, whether indulgent, high-calorie recipes receive different ratings than lighter alternatives. 
+High-calorie recipes are defined as those whose calorie count exceeds the median calorie value across all recipes in the dataset.
+To examine this, we conducted a permutation test under the following conditions:
 
 ## Null Hypothesis
-[FILL IN null.]
+The mean recipe average rating is the same for high-calories and low-calories recipes.
 
 ## Alternative Hypothesis
-[FILL IN alternative.]
+The mean recipe average rating differs between high-calories recipes and low-calories recipes.
 
 ## Test Statistic
-[FILL IN statistic.]
+The difference in mean between average rating of high-calories recipes and low-calories recipes.
 
 ## Significance Level
-[FILL IN alpha.]
+0.05
 
-## P-value
-[FILL IN p-value.]
+## Method
+To ensure each recipe was represented once, ratings were aggregated to the recipe level by computing each recipe's average rating before grouping. A permutaion test was performed 5000 times, shuffling the high/low calorie group labels each iteration to build an empirical null distribution.
 
 ## Conclusion
-[FILL IN conclusion.]
+The observed difference in mean rating between high-calorie and low-calorie recipes was <b>–0.0084</b>, indicating that high-calorie recipes were rated very slightly lower on average. However, with a <b>p-value of 0.0624</b> > 0.05, we <b>fail to reject the null hypothesis</b>. This suggests that the observed difference is within the range of what could arise by chance alone. Therefore, we do not have sufficient evidence to conclude that caloric content is associated with recipe ratings.
 
 [INSERT VISUAL IF NEEDED]
