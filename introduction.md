@@ -29,10 +29,11 @@ The ratings dataset has 731927 rows, translating to 731927 unique reviews, and h
  
 
 ## Main Question
-How does the average rating for “low-sugar” recipes compare to the average rating for “high-sugar” recipes?
+The main question our project focuses on is the following:
+**How does the average rating for “low-calorie” recipes compare to the average rating for “high-calorie” recipes?**
 
 ## Why This Matters
-Readers of our website should care about our dataset and our question because it combines recipe nutrition information with ratings from real Food.com users, allowing us to study how nutritional qualities relate to public satisfaction. This makes the dataset especially useful for understanding the balance between health and taste in a real-world setting. Our question about low-sugar versus high-sugar recipe ratings is important because many people assume that recipes with more sugar are more enjoyable, while lower-sugar recipes are less appealing. By comparing average ratings across these groups, we can test whether that belief is actually supported by user behavior and provide insight that is relevant to health-conscious cooks, recipe creators, and anyone trying to make better food choices without giving up enjoyment.
+Readers of our website should care about our dataset and our question because it combines recipe nutrition information with ratings from real Food.com users, allowing us to study how nutritional qualities relate to public satisfaction. This makes the dataset especially useful for understanding the balance between health and taste in a real-world setting. Our question about low-calorie versus high-calorie recipe ratings is important because many people assume that recipes with more calories are more enjoyable, while lower-calorie recipes are less appealing. By comparing average ratings across these groups, we can test whether that belief is actually supported by user behavior and provide insight that is relevant to health-conscious cooks, recipe creators, and anyone trying to make better food choices without giving up enjoyment.
 
 ## Dataset Size
 This is the size of our cleaned dataset:
@@ -41,6 +42,6 @@ This is the size of our cleaned dataset:
 
 ## Relevant Columns
 Here are the columns used to answer our question:
-- `sugar` — the PDV of sugar in the recipe
-- `high_sugar` — Boolean indicating whether or not the recipe's level of sugar is above the median value of sugar
+- `calories` — the amount of calories in the recipe
+- `high_calories` — Boolean indicating whether or not the recipe's amount of calories is above the median value of calories
 - `avg_rating` — the average rating of the recipe
