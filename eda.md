@@ -53,4 +53,8 @@ This density plot below compares the distribution of average ratings for high-ca
 ## Interesting Aggregates
 The table below summarizes average recipe ratings by calorie category. Low-calorie recipes have a marginally higher mean and median rating than high-calorie recipes, but the difference is minimal, indicating that recipes with higher calorie content are not necessarily rated more favorably by users.
 
- '| high_calorie   |   num_recipes |   mean_rating |   median_rating |   std_rating |\n|:---------------|--------------:|--------------:|----------------:|-------------:|\n| False          |        116016 |         4.686 |           4.875 |        0.496 |\n| True           |        115636 |         4.667 |           4.857 |        0.5   |'
+| high_calorie   |   num_recipes |   mean_rating |   median_rating |   std_rating |
+|:---------------|--------------:|--------------:|----------------:|-------------:|
+| False          |        116016 |         4.686 |           4.875 |        0.496 |
+| True           |        115636 |         4.667 |           4.857 |        0.5   |
+
