@@ -26,7 +26,7 @@ The difference in mean between average rating of high-calories recipes and low-c
 ## Method
 To ensure each recipe was represented once, ratings were aggregated to the recipe level by computing each recipe's average rating before grouping. A permutaion test was performed 5000 times, shuffling the high/low calorie group labels each iteration to build an empirical null distribution.
 
-<iframe src="/Modeling-Recipe-Ratings-Through-Structured-and-Text-Based-Feature-Engineering/Figures/Cal_hypTesting_Step4.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="/Modeling-Recipe-Ratings-Through-Structured-and-Text-Based-Feature-Engineering/Figure/Cal_hypTesting_Step4.html" width="100%" height="500" frameborder="0"></iframe>
 
 ## Conclusion
 The observed difference in mean rating between high-calorie and low-calorie recipes was <b>–0.0084</b>, indicating that high-calorie recipes were rated very slightly lower on average. However, with a <b>p-value of 0.0624</b> > 0.05, we <b>fail to reject the null hypothesis</b>. This suggests that the observed difference is within the range of what could arise by chance alone. Therefore, we do not have sufficient evidence to conclude that caloric content is associated with recipe ratings.
