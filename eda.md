@@ -57,3 +57,4 @@ The table below summarizes average recipe ratings by calorie category. Low-calor
 |:---------------|--------------:|--------------:|----------------:|-------------:|
 | False          |        116016 |         4.686 |           4.875 |        0.496 |
 | True           |        115636 |         4.667 |           4.857 |        0.5   |
+
