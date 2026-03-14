@@ -20,6 +20,9 @@ To determine whether the observed difference could happen by chance, we ran a pe
 
 
 ## Results
+
+<iframe src="/Modeling-Recipe-Ratings-Through-Structured-and-Text-Based-Feature-Engineering/Figure/Permutation testing.html" width="800" height="600" frameborder="0" ></iframe>
+
 The observed MAE values for the two groups were very similar, and the resulting p-value was fairly large. Because of this, we fail to reject the null hypothesis. In other words, we did not find evidence that the model performs meaningfully worse for high calorie recipes compared to low calorie ones.
 
 We also repeated the same permutation test for sugar content and cooking time (quick vs slow recipes). In all three comparisons the error differences were very small, suggesting the model performs similarly across these recipe groups.
