@@ -30,7 +30,7 @@ A permutation test with 2,000 iterations was conducted to evaluate whether the o
 <iframe src="/Modeling-Recipe-Ratings-Through-Structured-and-Text-Based-Feature-Engineering/Figure/Recipe_count_desMissingness_perm.html" width="100%" height="600" frameborder="0"></iframe>
 
 
-Authors of recipes with missing descriptions published, on average, 418 fewer recipes than authors of recipes with descriptions (<b>observed difference = –418.2 </b>, denoted by the black vertical line). A <b>p-value of 0.0005</b> < 0.05 from the permutation test indicates this difference is highly unlikely to have arisen by chance, rejecting the null hypothesis. These results suggest that description missingness is likely influenced by observed variables rather than the unobserved content itself, making it most likely <b>missing at random (MAR)</b>.
+Authors of recipes with missing descriptions published, on average, 418 fewer recipes than authors of recipes with descriptions (<b>observed difference = –418.2 </b>, denoted by the black vertical dashed line). A <b>p-value of 0.0005</b> < 0.05 from the permutation test indicates this difference is highly unlikely to have arisen by chance, rejecting the null hypothesis. These results suggest that description missingness is likely influenced by observed variables rather than the unobserved content itself, making it most likely <b>missing at random (MAR)</b>.
 
 
 ### Calories & Rating 
@@ -48,7 +48,7 @@ A permutation test with 2,000 iterations was conducted to evaluate whether the o
 
 <iframe src="/Modeling-Recipe-Ratings-Through-Structured-and-Text-Based-Feature-Engineering/Figure/Cal_ratingMissingness_perm.html" width="100%" height="600" frameborder="0"></iframe>
 
-Recipes with missing ratings had, on average, 60.67 more calories than recipes with observed ratings (<b>observed difference = 60.67</b>, denoted by the black vertical line). A <b>p-value of 0.0005</b> < 0.05 indicates this difference is very unlikely due to chance, rejecting the null hypothesis. These results suggest that rating missingness is likely influenced by observed variables rather than the unobserved rating value itself, making it most likely <b>MAR</b>.
+Recipes with missing ratings had, on average, 60.67 more calories than recipes with observed ratings (<b>observed difference = 60.67</b>, denoted by the black vertical dashed line). A <b>p-value of 0.0005</b> < 0.05 indicates this difference is very unlikely due to chance, rejecting the null hypothesis. These results suggest that rating missingness is likely influenced by observed variables rather than the unobserved rating value itself, making it most likely <b>MAR</b>.
 
 
 ### Cooking time & Rating 
@@ -66,6 +66,6 @@ A permutation test with 2,000 iterations was conducted to evaluate whether the o
 
 <iframe src="/Modeling-Recipe-Ratings-Through-Structured-and-Text-Based-Feature-Engineering/Figure/CookingTime_ratingMissingness_perm.html" width="100%" height="600" frameborder="0"></iframe>
 
-Recipes with missing ratings had, on average, 34.89 more minutes of cooking time than recipes with observed ratings (observed difference = 34.89, denoted by the black vertical line). A <b>p-value of 0.114 > 0.05 fails to reject the null hypothesis</b>, suggesting this difference could plausibly have been by chance. These results indicate that cooking time is not significantly associated with rating missingness.
+Recipes with missing ratings had, on average, 34.89 more minutes of cooking time than recipes with observed ratings (observed difference = 34.89, denoted by the black vertical dashed line). A <b>p-value of 0.114 > 0.05 fails to reject the null hypothesis</b>, suggesting this difference could plausibly have been by chance. These results indicate that cooking time is not significantly associated with rating missingness.
 
 
