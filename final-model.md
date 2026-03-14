@@ -52,6 +52,6 @@ We believe this final model is good, especially compared to the baseline, becaus
 ## Why These Features Make Sense
 These features make sense for the prediction task because ratings are not only influenced by the recipe itself, but also by how people describe their experience with it. For example, more positive reviews, more consistent review scores, and stronger sentiment patterns should all relate to higher recipe ratings. Recipe-level features such as time, ingredients, and nutrition also matter because they reflect recipe complexity and the type of food being made.
 
-![All Models PErformance Comaparison](image.png)
+![All Models Performance Comaparison](image-1.png)
 
 
