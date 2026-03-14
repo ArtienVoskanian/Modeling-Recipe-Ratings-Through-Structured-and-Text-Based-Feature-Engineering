@@ -56,9 +56,9 @@ We selected the final CatBoost model by comparing it with the baseline and other
 - `R^2`: 0.5496
 
 ## Improvement Over Baseline
-The baseline Linear Regression had `MAE = 0.4652`, `RMSE = 0.6410`, and `R^2 = 0.00016`, while the final CatBoost model achieved `MAE = 0.0267`, `RMSE = 0.0380`, and `R^2 = 0.5496`. This is a large improvement over the baseline. The final model makes much smaller errors and explains a much larger share of the variation in ratings, while the baseline explains almost none.
+The baseline Linear Regression performed near-chance (MAE = 0.4652, RMSE = 0.6410, R² = 0.00016), explaining essentially none of the variance in ratings. The final CatBoost model improved substantially across all metrics (MAE = 0.0267, RMSE = 0.0380, R² = 0.5496), with errors roughly 17× smaller and a meaningful share of variance explained.
 
-We believe this final model is good, especially compared to the baseline, because it clearly captures useful information from both the structured recipe features and the review-based features. At the same time, it is not perfect, since an `R^2` of about 0.55 still means there is some variation in ratings that the model cannot explain. That makes sense because user ratings are subjective and noisy.
+We interpret this as a strong result given the nature of the task. The improvement suggests the model successfully leverages both structured recipe features and review-based signals. The remaining unexplained variance (R² ≈ 0.55) is expected — user ratings are inherently subjective and noisy, so a ceiling well below 1.0 is reasonable rather than a shortcoming of the model.
 
 ## Why These Features Make Sense
 These features make sense for the prediction task because ratings are not only influenced by the recipe itself, but also by how people describe their experience with it. For example, more positive reviews, more consistent review scores, and stronger sentiment patterns should all relate to higher recipe ratings. Recipe-level features such as time, ingredients, and nutrition also matter because they reflect recipe complexity and the type of food being made.
