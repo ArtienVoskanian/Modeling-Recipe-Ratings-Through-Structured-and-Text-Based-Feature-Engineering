@@ -30,10 +30,10 @@ The ratings dataset has 731927 rows, translating to 731927 unique reviews, and h
 
 ## Main Question
 The main question our project focuses on is the following:
-**How does the average rating for “low-calorie” recipes compare to the average rating for “high-calorie” recipes?**
+**To what extent do nutritional content, such as calories, and review-related variables shape the average rating of recipes?**
 
 ## Why This Matters
-Readers of our website should care about our dataset and our question because it combines recipe nutrition information with ratings from real Food.com users, allowing us to study how nutritional qualities relate to public satisfaction. This makes the dataset especially useful for understanding the balance between health and taste in a real-world setting. Our question about low-calorie versus high-calorie recipe ratings is important because many people assume that recipes with more calories are more enjoyable, while lower-calorie recipes are less appealing. By comparing average ratings across these groups, we can test whether that belief is actually supported by user behavior and provide insight that is relevant to health-conscious cooks, recipe creators, and anyone trying to make better food choices without giving up enjoyment.
+Readers of our website should care about this dataset and research question because it combines detailed nutritional information with review-related features from real Food.com users, allowing us to investigate what factors influence how recipes are rated. By examining both nutritional characteristics, such as calorie content, and aspects of user reviews, we can better understand what drives perceived recipe quality in a real-world setting. Our analysis explores whether factors like calories and review activity meaningfully shape the average rating of recipes, helping us evaluate common assumptions about food preferences. These insights are relevant for health-conscious cooks, recipe developers, and anyone interested in understanding how nutritional choices and user feedback relate to overall recipe satisfaction.
 
 ## Dataset Size
 This is the size of our cleaned dataset:
