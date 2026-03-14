@@ -7,8 +7,8 @@ nav_order: 5
 # Hypothesis Testing
 
 ## Question
-Nutrition is often a consideration when people choose and evaluate recipes. To explore whether the amount of calories  has any effect on how users rate recipes, specifically, whether indulgent, high-calorie recipes receive different ratings than lighter alternatives. 
-High-calorie recipes are defined as those whose calorie count exceeds the median calorie value across all recipes in the dataset.
+Nutrition is often a consideration when people choose and evaluate recipes. We investigated <b>whether the amount of calories has any effect on how users rate recipes</b>, specifically, whether indulgent, high-calorie recipes receive different ratings than lighter alternatives. 
+High-calorie recipes are defined as those whose calorie count exceeds the median calorie value across all recipes in the dataset and low calories as those below the median.
 To examine this, we conducted a permutation test under the following conditions:
 
 ## Null Hypothesis
