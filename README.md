@@ -1,4 +1,4 @@
-# Modeling Recipe Ratings Through Structured and Text-Based Feature Engineering
+# Flavors, Features, and Feedback: A Data Science Approach to Recipe Ratings
 
 ## Main Question
 
