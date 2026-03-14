@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Creative Project Title
+# Flavors, Features, and Feedback: A Data Science Approach to Recipe Ratings
 
 By Reza Moghadam, Dimas Molina, Artien Voskanian, and Ann Nguyen
 
