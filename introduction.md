@@ -43,5 +43,12 @@ This is the size of our cleaned dataset:
 ## Relevant Columns
 Here are the columns used to answer our question:
 - `calories` — the amount of calories in the recipe
-- `high_calories` — Boolean indicating whether or not the recipe's amount of calories is above the median value of calories
+- `minutes` — number of minutes it takes to complete the recipe
 - `avg_rating` — the average rating of the recipe
+- `n_steps`: the number of steps it takes to complete the recipe
+- `n_ingredients`: the number of ingredients used in the recipe
+- `sugar`: the PDV of sugar in the recipe
+- `protein`: the PDV of protein in the recipe
+- `carbohydrates`: the PDV of carbohydrates in the recipe
+- `total_fat`: the PDV of total fat in the recipe
+- `sodium`: the PDV of sodium in the recipe
