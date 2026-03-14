@@ -1,6 +1,5 @@
-title: Creative Project Title
-description: My course project site
-
+title: ""
+description: Modeling Recipe Ratings Through Structured and Text Based Feature Engineering
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
